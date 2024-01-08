@@ -1,0 +1,76 @@
+.container{
+    width:100%;
+    height:30px;
+}
+ul>li{
+    display: inline-block;
+    /*justify-content: space-evenly;*/
+    margin-left:70px;
+}
+input{
+    width:250px;
+    height:40px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    color:black;
+}
+   select{
+    width:100px;
+    height:40px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background: none;
+}
+select:hover{
+    background-color: blue;
+    color:white;
+}
+.demo{
+    margin-top:5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent ;
+    box-shadow: 2px 2px 4px 4px lightgray;
+    margin-top: 10px;
+    width:100%;
+    height:350px;
+}
+.card2{
+    height:300px;
+    width:200px;
+    border:2px solid;
+    box-shadow: 2px 2px lightseagreen;
+}
+.poster-container{
+    display: flex;
+    width:100%;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px yellow;
+    margin-top: 5%;
+}
+.flex-container{
+    width:900px;
+    height: 100px;
+    margin-top: 2%;
+    padding-left: 20%;
+}
+
+.img-container1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.footer-content{
+    height: 30vh;
+    background-color: black;
+    color:white;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
